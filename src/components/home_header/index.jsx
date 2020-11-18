@@ -15,7 +15,7 @@ const FullHeaderContent = () => (
       <div className='ctas'>
         <Link text='Email' href='mailto:huongshirley@gmail.com'/>
         <Link text='Resume' target='_blank' href='../../assets/Shirley_Huong_Resume.pdf' />
-        <Link text='IG' target='_blank' href='http://www.instagram.com/shirleyisfishing'/>
+        <Link text='IG' target='_blank' href='http://www.instagram.com/shirleysayshi'/>
       </div>
     </div>
   </div>
