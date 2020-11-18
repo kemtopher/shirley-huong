@@ -1,0 +1,9 @@
+img.gd {
+  margin-bottom: 40px;
+  @media(min-width: 481px) {
+    margin-bottom: 48px;
+  }
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'akdidenz-bold';
+  src: url('../../fonts/AkzidenzGrotesk-BoldExtended.otf');
+}
+
+@font-face {
+  font-family: 'akdidenz-reg';
+  src: url('../../fonts/Akzidenz-Grotesk-BQ-Regular_2840.ttf');
+}
+
+.description {
+  @media(min-width: 768px) {
+    padding: 24px 0;
+  }
+  @media(max-width: 767px) {
+    padding: 20px 0;
+  }
+  .description-title {
+    font-family: 'akdidenz-bold';
+    @media(max-width: 480px) {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    @media(min-width: 481px) and (max-width: 768px) {
+      font-size: 20px;
+      line-height: 28px;
+    }
+    @media(min-width: 769px) {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .description-text {
+    font-family: 'akdidenz-reg';
+    font-size: 24px;
+    line-height: 32px;
+    @media(min-width: 481px) and (max-width: 768px) {
+      font-size: 20px;
+      line-height: 28px;
+    }
+    @media(max-width: 480px) {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    white-space: pre-wrap;
+  }
+  .description-text > * {
+    font-size: 1em;
+  }
+
+  &.no-padding {
+    padding-top: 0;
+  }
+
+  &.iphone-offset {
+    @media(min-width: 768px) {
+      padding-top: 48px;
+    }
+    @media(max-width: 767px) {
+      padding-top: 0;
+      &.top {
+        padding-top: 25px;
+      }
+    }
+  }
+}

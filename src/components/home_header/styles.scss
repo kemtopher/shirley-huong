@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'perpetua';
+  src: url('../../fonts/pertili.ttf');
+}
+
+.home-header {
+  font-size: 16px;
+  @media(min-width: 481px) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  @media(max-width: 480px) {
+    line-height: 22px;
+  }
+  font-family: 'perpetua';
+  text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid black;
+  z-index: 1;
+  .header-flex {
+    display: flex;
+    justify-content: space-between;
+    @media(max-width: 1023px) {
+      flex-direction: column;
+    }
+  }
+  .header-description {
+    @media(min-width: 769px) {
+      width: 663px;
+    }
+    @media(min-width: 481px) and (max-width: 768px) {
+      width: 521px;
+    }
+    @media(min-width: 376px) and (max-width: 480px) {
+      width: 369px;
+    }
+
+    @media(max-width: 375px) {
+      width: 337px;
+    }
+  }
+  @media(max-width: 576px) {
+    &.full {
+      padding: 24px 24px 72px;
+    }
+    &.condensed {
+      padding: 13px 24px 15px;
+    }
+  }
+  @media(min-width: 577px) {
+    &.full {
+      padding: 24px 32px 96px;
+    }
+    &.condensed {
+      padding: 15px 32px;
+    }
+  }
+
+  .name {
+    cursor: pointer;
+  }
+
+  &.condensed {
+    .ctas {
+      @media(min-width: 768px) and (max-width: 1023px) {
+        margin-top: 0;
+        text-align: right;
+      }
+    }
+  }
+  .ctas {
+    @media(max-width: 991px) and (min-width: 481px) {
+      margin-top: 48px;
+    }
+    @media(max-width: 1023px) {
+      margin-top: 24px;
+      &.condensed {
+        display: none;
+      }
+    }
+    .cta {
+      margin-right: 55px;
+      @media(max-width: 480px) {
+        margin-right: 40px;
+      }
+    }
+    .cta:last-of-type {
+      margin-right: 0;
+    }
+  }
+}

@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'akdidenz-bold';
+  src: url('../../fonts/AkzidenzGrotesk-BoldExtended.otf');
+}
+
+@font-face {
+  font-family: 'akdidenz-reg';
+  src: url('../../fonts/Akzidenz-Grotesk-BQ-Regular_2840.ttf');
+}
+
+.product-detail-container {
+  background-color: #f9f9f9;
+  .product-detail-content {
+    @media(max-width: 480px) {
+      padding: 0 24px;
+    }
+    @media(min-width: 481px) {
+      padding: 0 32px;
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .pic-desc {
+    padding: 0.5em 0 0;
+    color: #9b9b9b;
+  }
+
+  hr {
+    margin-left: -32px;
+    margin-right: -32px;
+    border-color: black;
+  }
+
+  .section-header {
+    @media(min-width: 768px) {
+      padding: 64px 0 0;
+    }
+    padding: 40px 0 0;
+    font-family: 'akdidenz-bold';
+    text-transform: uppercase;
+    font-size: 48px;
+    @media(max-width: 767px) {
+      font-size: 28px;
+    }
+  }
+}
+
+.last {
+  @media(min-width: 768px) {
+    padding-bottom: 96px;
+  }
+  @media(max-width: 767px) {
+    padding-bottom: 72px;
+  }
+}
+
+.top {
+  @media(min-width: 768px) {
+    padding-top: 48px;
+  }
+  @media(max-width: 767px) {
+    padding-top: 40px;
+  }
+}
+
+.before-pic {
+  @media(min-width: 768px) {
+    padding-bottom: 48px;
+  }
+  @media(max-width: 767px) {
+    padding-bottom: 40px;
+  }
+}
+
+.before-pic-header {
+  @media(min-width: 768px) {
+    padding-bottom: 32px !important;
+  }
+  @media(max-width: 767px) {
+    padding-bottom: 24px !important;
+  }
+}
+
+.after-pic {
+  @media(min-width: 768px) {
+    padding-top: 48px;
+  }
+  @media(max-width: 767px) {
+    padding-top: 40px;
+  }
+}
+
+.before-border {
+  @media(min-width: 768px) {
+    margin-bottom: 32px;
+  }
+  @media(max-width: 767px) {
+    margin-bottom: 24px;
+  }
+}
