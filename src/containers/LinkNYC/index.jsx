@@ -184,7 +184,7 @@ After the session, the runner can review their biometrics in the Nike+ Running a
               </div>
             </div>
           </div>
-        <DetailFooter prev={{href: 'flyer'}} next={{href: 'mizu'}}/>
+        <DetailFooter prev={{href: 'flyer'}} next={{href: '/gd/night snack club'}}/>
       </div>
     )
   }

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import HomeHeader from '../../components/home_header';
 import ProductCaseSection from '../../components/product_case_section';
 import GDCaseSection from '../../components/gd_case_section';
+import GDCaseLink from '../../components/gd_case_link';
 
 export default class Home extends React.PureComponent {
   render() {
@@ -28,24 +29,33 @@ export default class Home extends React.PureComponent {
           title='linkNYC'
           description='Technology to improve your running form.'
         />
-        <ProductCaseSection
+        {/* <GDCaseSection
+          title='night snack club'
+          description='Digital destination where we explore and share our collective knowledge.'
+        /> */}
+        <GDCaseLink 
+          title='night snack club'
+          description='Digital destination where we explore and share our collective knowledge.'
+          externalURL='https://www.nightsnackclub.com'
+        />
+        {/* <ProductCaseSection
         title='mizu'
         description='A meditation mood music app that helps you relax.'
-        />
+        /> */}
         <GDCaseSection
           id='tuft'
           title='tuft & needle'
           description='A mattress company disrupting sleep.'
         />
         <GDCaseSection
+          title='deluxe market'
+          description='exhibition at paragraph gallery.'
+        />
+        {/* <GDCaseSection
           id='chi'
           title='chi'
           description='A mail order catalog based on feng shui.'
-        />
-        <GDCaseSection
-          title='night snack club'
-          description='Self-initiated projects.'
-        />
+        /> */}
         <GDCaseSection
           title='standard'
           description='Reimagining paint containers with a new identity.'

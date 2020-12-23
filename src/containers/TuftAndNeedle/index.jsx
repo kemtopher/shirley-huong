@@ -61,7 +61,7 @@ export default class TuftAndNeedle extends React.PureComponent {
             </div>
           </div>
         </div>
-        <DetailFooter prev={{href: '/product/mizu'}} next={{href: 'chi'}}/>
+        <DetailFooter prev={{href: 'night snack club'}} next={{href: 'deluxe market'}}/>
       </div>
     )
   }

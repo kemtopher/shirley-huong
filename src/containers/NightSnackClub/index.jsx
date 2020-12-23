@@ -54,7 +54,7 @@ export default class NightSnackClub extends React.PureComponent {
             </div>
           </div>
         </div>
-        <DetailFooter prev={{href: 'chi'}} next={{href: 'standard'}}/>
+        <DetailFooter prev={{href: '/product/linknyc'}} next={{href: 'tuft & needle'}}/>
       </div>
     )
   }
