@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mindyyuan/shirley.git"
+    "url": "git+https://github.com/kemtopher/shirley-huong.git"
   },
   "engines": {
     "node": "6.2.2"
@@ -48,10 +48,10 @@
     "webpack": "^3.8.1",
     "webpack-bundle-tracker": "^0.2.0"
   },
-  "author": "Mindy Yuan",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mindyyuan/shirley/issues"
+    "url": "https://github.com/kemtopher/shirley-huong.git"
   },
   "homepage": "/"
 }

@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'akdidenz-bold';
-  src: url('../../fonts/AkzidenzGrotesk-BoldExtended.otf');
+  font-family: "akdidenz-bold";
+  src: url("../../fonts/AkzidenzGrotesk-BoldExtended.otf");
 }
 
 @font-face {
-  font-family: 'perpetua';
-  src: url('../../fonts/pertili.ttf');
+  font-family: "perpetua";
+  src: url("../../fonts/pertili.ttf");
 }
 
 .detail-header {
@@ -15,25 +15,26 @@
   top: 0;
   width: 100%;
   z-index: 1;
+  transition: all 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
   &.full {
-    @media(min-width: 481px) {
+    @media (min-width: 481px) {
       padding: 20px 32px 96px;
     }
-    @media(max-width: 480px) {
+    @media (max-width: 480px) {
       padding: 10px 24px 72px;
     }
   }
   &.condensed {
-    @media(min-width: 481px) {
+    @media (min-width: 481px) {
       padding: 14px 32px;
     }
-    @media(max-width: 480px) {
+    @media (max-width: 480px) {
       padding: 14px 24px;
     }
     .title {
       line-height: 32px;
     }
-    @media(max-width: 576px) {
+    @media (max-width: 576px) {
       .right-cta {
         display: none;
       }
@@ -41,33 +42,34 @@
   }
   .title {
     cursor: pointer;
-    font-family: 'akdidenz-bold';
+    font-family: "akdidenz-bold";
     text-transform: uppercase;
     font-size: 48px;
     line-height: 56px;
-    @media(max-width: 480px) {
+    transition: all 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
+    @media (max-width: 480px) {
       font-size: 28px;
       line-height: 32px;
     }
   }
   .right-cta {
-    @media(min-width: 480px) {
+    @media (min-width: 480px) {
       text-align: right;
     }
-    @media(max-width: 767px) {
+    @media (max-width: 767px) {
       &:not(.col-sm-2) {
         margin-top: 16px;
       }
     }
   }
   .cta {
-    font-family: 'perpetua';
+    font-family: "perpetua";
     text-transform: uppercase;
-    @media(min-width: 769px) {
+    @media (min-width: 769px) {
       font-size: 24px;
       line-height: 32px;
     }
-    @media(max-width: 768px) {
+    @media (max-width: 768px) {
       font-size: 16px;
     }
   }

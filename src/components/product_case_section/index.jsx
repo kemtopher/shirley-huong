@@ -17,23 +17,23 @@ export default class ProductCaseSection extends React.PureComponent {
   };
 
   hover = (e) => {
-    if (e.target.id === 'post' || e.target.classList.contains('post')) {
-      document.querySelector('.pp-icon').style.background = 'url(../../assets/White_pp_logo_text.svg) no-repeat';
-    } else if (e.target.id === 'nike' || e.target.classList.contains('nike')) {
-      document.querySelector('.product-case-section-nike .nike-icon').style.background = 'url(../../assets/White_Nike_Logo.svg) no-repeat';
-    } else if (e.target.id === 'run-club' || e.target.classList.contains('run-club')) {
-      document.querySelector('.product-case-section-run-club .nike-icon').style.background = 'url(../../assets/White_Nike_Logo.svg) no-repeat';
-    }
+    // if (e.target.id === 'post' || e.target.classList.contains('post')) {
+    //   document.querySelector('.pp-icon').style.background = 'url(../../assets/White_pp_logo_text.svg) no-repeat';
+    // } else if (e.target.id === 'nike' || e.target.classList.contains('nike')) {
+    //   document.querySelector('.product-case-section-nike .nike-icon').style.background = 'url(../../assets/White_Nike_Logo.svg) no-repeat';
+    // } else if (e.target.id === 'run-club' || e.target.classList.contains('run-club')) {
+    //   document.querySelector('.product-case-section-run-club .nike-icon').style.background = 'url(../../assets/White_Nike_Logo.svg) no-repeat';
+    // }
   }
 
   unhover = (e) => {
-    if (e.target.id === 'post' || e.target.classList.contains('post')) {
-      document.querySelector('.pp-icon').style.background = 'url(../../assets/pp_logo_text.svg) no-repeat';
-    } else if (e.target.id === 'nike' || e.target.classList.contains('nike')) {
-      document.querySelector('.product-case-section-nike .nike-icon').style.background = 'url(../../assets/Nike_Logo.svg) no-repeat';
-    } else if (e.target.id === 'run-club' || e.target.classList.contains('run-club')) {
-      document.querySelector('.product-case-section-run-club .nike-icon').style.background = 'url(../../assets/Nike_Logo.svg) no-repeat';
-    }
+    // if (e.target.id === 'post' || e.target.classList.contains('post')) {
+    //   document.querySelector('.pp-icon').style.background = 'url(../../assets/pp_logo_text.svg) no-repeat';
+    // } else if (e.target.id === 'nike' || e.target.classList.contains('nike')) {
+    //   document.querySelector('.product-case-section-nike .nike-icon').style.background = 'url(../../assets/Nike_Logo.svg) no-repeat';
+    // } else if (e.target.id === 'run-club' || e.target.classList.contains('run-club')) {
+    //   document.querySelector('.product-case-section-run-club .nike-icon').style.background = 'url(../../assets/Nike_Logo.svg) no-repeat';
+    // }
   }
 
   renderPPIcon() {

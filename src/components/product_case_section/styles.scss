@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'akdidenz-bold';
-  src: url('../../fonts/AkzidenzGrotesk-BoldExtended.otf');
+  font-family: "akdidenz-bold";
+  src: url("../../fonts/AkzidenzGrotesk-BoldExtended.otf");
 }
 
 @font-face {
-  font-family: 'perpetua';
-  src: url('../../fonts/pertili.ttf');
+  font-family: "perpetua";
+  src: url("../../fonts/pertili.ttf");
 }
 
 .product-case-section {
@@ -14,43 +14,49 @@
   width: 100%;
   border-bottom: 1px solid black;
   padding: 48px 0;
-  @media(min-width: 769px) {
+  @media (min-width: 769px) {
     line-height: 50px;
   }
-  @media(max-width: 767px) {
+  @media (max-width: 767px) {
     padding: 24px 9px;
   }
-  @media(min-width: 481px) {
+  @media (min-width: 481px) {
     &:hover {
-      background-color: black;
+      background-color: darken(#fff4e1, 10%);
+      // opacity: 0.4;
+      transition: all 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
+      transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+    }
+    &:not(:hover) {
+      // transition: 1.35s all;
     }
     &:hover .product-case-title {
-      color: white;
+      // color: white;
     }
     &:hover .horizontal-line {
-      color: white;
+      // color: white;
     }
     &:hover .product-case-description {
-      color: white;
+      // color: white;
     }
   }
 
   .product-case-content-wrapper {
     margin: 0 auto;
-    @media(min-width: 1024px) {
+    @media (min-width: 1024px) {
       width: 845px;
     }
-    @media(min-width: 481px) and (max-width: 1023px) {
+    @media (min-width: 481px) and (max-width: 1023px) {
       width: 608px;
     }
-    @media(max-width: 480px) {
+    @media (max-width: 480px) {
       width: 337px;
       line-height: 20px;
     }
   }
 
   .pp-icon {
-    background: url('../../assets/pp_logo_text.svg') no-repeat;
+    background: url("../../assets/pp_logo_text.svg") no-repeat;
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
@@ -59,18 +65,18 @@
     position: relative;
     top: -10px;
     max-width: 10em;
-    @media(max-width: 768px) and (min-width: 481px) {
+    @media (max-width: 768px) and (min-width: 481px) {
       top: 0;
       height: 32px;
     }
-    @media(max-width: 480px) {
+    @media (max-width: 480px) {
       top: 0;
       height: 16px;
       max-width: 5em;
     }
   }
   .nike-icon {
-    background: url('../../assets/Nike_Logo.svg') no-repeat;
+    background: url("../../assets/Nike_Logo.svg") no-repeat;
     display: inline-block;
     vertical-align: middle;
     height: 30px;
@@ -79,12 +85,12 @@
     position: relative;
     top: -7px;
     max-width: 5.4em;
-    @media(max-width: 768px) and (min-width: 481px) {
+    @media (max-width: 768px) and (min-width: 481px) {
       top: 0;
       max-width: 4em;
       height: 32px;
     }
-    @media(max-width: 480px) {
+    @media (max-width: 480px) {
       top: 0;
       height: 16px;
       width: 40px;
@@ -97,13 +103,13 @@
   }
 
   .product-case-title {
-    font-family: 'akdidenz-bold';
+    font-family: "akdidenz-bold";
     font-size: 42px;
-    @media(max-width: 480px) {
+    @media (max-width: 480px) {
       font-size: 18px;
       line-height: 20px;
     }
-    @media(min-width: 481px) and (max-width: 768px) {
+    @media (min-width: 481px) and (max-width: 768px) {
       font-size: 34px;
       line-height: 38px;
     }
@@ -116,14 +122,14 @@
   }
 
   .product-case-description {
-    font-family: 'perpetua';
+    font-family: "perpetua";
     font-size: 40px;
     color: black;
-    @media(max-width: 480px) {
+    @media (max-width: 480px) {
       font-size: 16px;
       line-height: 20px;
     }
-    @media(min-width: 481px) and (max-width: 768px) {
+    @media (min-width: 481px) and (max-width: 768px) {
       font-size: 32px;
       line-height: 38px;
     }

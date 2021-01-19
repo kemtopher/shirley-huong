@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
+// styles are implemented at global level
+// inside src/components/gd_case_section/styles.scss
 import Styles from './styles.scss';
 
 export default class GDCaseSection extends React.PureComponent {

@@ -27,17 +27,21 @@ export default class DeluxeMarket extends React.PureComponent {
             <div className='col-12 col-md-6'>
               <Description
                 title='Creative Direction'
-                className={window.innerWidth > 767 ? 'top' : ''}
                 text='Hui OY, Shirley Huong'
+                className={window.innerWidth > 767 ? 'top' : ''}
               />
-              <Description
+              {/* <Description
                 title='Time'
                 text='02/2020'
-              />
+              /> */}
               <Description
                 title='Production'
+                text="Hui OY, Shirley Huong, Trenna Sharpe,<br/>Danielle Juncal, Nicole Liao"
+              />
+              <Description
+                title='Credit'
+                text='Flower Arrangements by Shirley Huong<br/>Poster by Hui OY<br/>Photography by Judy Kim'
                 className='before-pic'
-                text="Hui OY, Shirley Huong, <br/>Trenna Sharpe, Danielle Juncal, Nicole Liao"
               />
             </div>
           </div>
@@ -50,8 +54,8 @@ export default class DeluxeMarket extends React.PureComponent {
               <img className='gd' src='../../assets/DeluxeMarket/5.JPG'/>
               <img className='gd' src='../../assets/DeluxeMarket/6.JPG'/>
               <img className='gd' src='../../assets/DeluxeMarket/7.JPG'/>
-              <img className='gd' src='../../assets/DeluxeMarket/9.JPG'/>
-              <img className='gd last' src='../../assets/DeluxeMarket/8.JPG'/>
+              <img className='gd' src='../../assets/DeluxeMarket/8.JPG'/>
+              <img className='gd last' src='../../assets/DeluxeMarket/9.JPG'/>
             </div>
           </div>
         </div>

@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-import Styles from './styles.scss';
+// styles are implemented at global level
+// inside src/components/gd_case_section/styles.scss
+import Styles from '../gd_case_section/styles.scss';
 
 export default class GDCaseLink extends React.PureComponent {
   static propTypes = {
@@ -18,15 +20,15 @@ export default class GDCaseLink extends React.PureComponent {
   };
 
   hover = (e) => {
-    if (e.target.id === 'chi' || e.target.classList.contains('chi')) {
-      document.querySelector('.chi-icon').setAttribute('src', '../../assets/White_YingYang.svg');
-    }
+    // if (e.target.id === 'chi' || e.target.classList.contains('chi')) {
+    //   document.querySelector('.chi-icon').setAttribute('src', '../../assets/White_YingYang.svg');
+    // }
   }
 
   unhover = (e) => {
-    if (e.target.id === 'chi' || e.target.classList.contains('chi')) {
-      document.querySelector('.chi-icon').setAttribute('src', '../../assets/YingYang.svg');
-    }
+    // if (e.target.id === 'chi' || e.target.classList.contains('chi')) {
+    //   document.querySelector('.chi-icon').setAttribute('src', '../../assets/YingYang.svg');
+    // }
   }
 
   renderChiIcon() {

@@ -23,7 +23,7 @@
   .header-flex {
     display: flex;
     justify-content: space-between;
-    @media (max-width: 1023px) {
+    @media (max-width: 1024px) {
       flex-direction: column;
     }
   }
@@ -70,7 +70,7 @@
 
   &.condensed {
     .ctas {
-      @media (min-width: 768px) and (max-width: 1023px) {
+      @media (min-width: 768px) and (max-width: 1024px) {
         margin-top: 0;
         text-align: right;
       }
@@ -83,7 +83,7 @@
     @media (max-width: 991px) and (min-width: 481px) {
       margin-top: 48px;
     }
-    @media (max-width: 1023px) {
+    @media (max-width: 1024px) {
       margin-top: 48px;
       // margin-top: 24px;
       &.condensed {

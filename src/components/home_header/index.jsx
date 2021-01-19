@@ -10,7 +10,7 @@ const FullHeaderContent = () => (
   <div className='home-header container-fluid full'>
     <div className='header-flex'>
       <div className='header-description'>
-        <a className='name' onClick={() => window.scrollTo(0,0)}>Shirley Huong </a> IS A PRODUCT DESIGNER BUILDING DIGITAL PRODUCTS AT <a href="squarespace.com" className="linkToPosition cta" alt="link to current position" target="_blank">SQUARESPACE</a>.
+        <a className='name' onClick={() => window.scrollTo(0,0)}>Shirley Huong </a> IS A PRODUCT DESIGNER BUILDING DIGITAL PRODUCTS AT <a href="https://www.squarespace.com" className="linkToPosition cta" alt="link to current position" target="_blank">SQUARESPACE</a>.
       </div>
       <div className='ctas'>
         <Link text='Email' href='mailto:huongshirley@gmail.com'/>
