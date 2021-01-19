@@ -40,7 +40,7 @@ export default class DeluxeMarket extends React.PureComponent {
               />
               <Description
                 title='Credit'
-                text='Flower Arrangements by Shirley Huong<br/>Poster by Hui OY<br/>Photography by Judy Kim'
+                text='Flower Arrangements by Shirley Huong<br/>Posters by Hui OY<br/>Photography by Judy Kim'
                 className='before-pic'
               />
             </div>
